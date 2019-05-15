@@ -2,6 +2,7 @@
     <div>
         <img class="gallery-img" src='../assets/images/draw1.jpg'>
         <img class="gallery-img" src='../assets/images/draw2.jpg'>
+        <img class="gallery-img" src='../assets/images/avatar.png'>
     </div>
 </template>
 
