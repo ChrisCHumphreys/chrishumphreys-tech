@@ -6,7 +6,7 @@
         <section>
             <div class="tile is-ancestor">
                 <div class="tile is-12">
-                    <div class="tile is-2 is-parent">
+                    <div class="tile is-4 is-parent">
                         <article class="tile is-child notification is-primary">
                             <div class="control">
                                 <p class="title">
@@ -23,7 +23,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="tile is-2 is-parent">
+                    <div class="tile is-4 is-parent">
                         <article class="tile is-child notification is-primary">
                             <p class="title">Board Size</p>
                             <div class="field">
@@ -39,7 +39,7 @@
                             </div>
                         </article>
                     </div>
-                    <div class="tile is-2 is-parent" v-if="!showError">
+                    <div class="tile is-4 is-parent" v-if="!showError">
                         <article class="tile is-child notification is-primary">
                             <p class="title">Current Score: {{ currentScore }}</p>
                         </article>
