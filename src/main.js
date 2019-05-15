@@ -5,6 +5,8 @@ Vue.use(VueRouter)
 
 import theCheckersComponent from './components/theCheckersComponent'
 import theLifeComponent from './components/theLifeComponent';
+import theDrawingComponent from './components/theDrawingComponent';
+import frontPageComponent from './components/frontPageComponent';
 
 const router = new VueRouter({
     mode: 'history',
@@ -12,6 +14,8 @@ const router = new VueRouter({
     routes: [
         {path: '/conway-checkers', component: theCheckersComponent},
         {path: '/conway-life', component: theLifeComponent},
+        {path: '/drawings', component: theDrawingComponent},
+        {path: '/', component: frontPageComponent},
     ],
 });
 import theWelcomePage from './components/theWelcomePage.vue';

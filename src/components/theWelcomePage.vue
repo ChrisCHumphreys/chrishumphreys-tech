@@ -12,7 +12,7 @@
                     <router-link to="/conway-life">Conway's Game of Life</router-link>
                 </li>
                 <li>
-                    <router-link to="/testing">Testing and experiments</router-link>
+                    <router-link to="/drawings">Drawings</router-link>
                 </li>
             </ul>
         </div>
